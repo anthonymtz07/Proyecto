@@ -1,0 +1,9 @@
+{
+    "name":"GtrCars",
+    "short_name":"gtr",
+    "start_url":"index.html",
+    "display": "standalone",
+    "background-color":"#fdfdfd",
+    "theme_color":"#db4938",
+    "orientation":"portrait-primary"
+}
