@@ -4,12 +4,7 @@ const assets = [
     "/index.html",
     "/css/style.css",
     "/js/app.js",
-    "/images/gtrNissan.jpeg",
-    "/images/gtrNissan2.jpg",
-    "/images/gtrNissan3.jpg",
-    "/images/gtrNissan4.jpg",
-    "/images/gtrNissan5.jpg",
-    "/images/gtrNissan6.jpg",
+    "/images/logo.png"
 ]
 
 self.addEventListener("install",installEvent =>{
