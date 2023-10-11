@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", showAutos)
 
 if("serviceWorker" in navigator){
     console.log("Si soporta")

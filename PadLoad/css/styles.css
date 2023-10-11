@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*container*/
+.container{
+    max-width: 500px;
+    padding: 20px;
+    
+}
+.image{
+    text-align: center;
+}
+.image img{
+    height: 200px;
+    width: 200px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/*Form*/
+.form-group{
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #FFF;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/*Buttoms*/
+.buttons{
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+.buttons button{
+    background-color: #0077B5;
+    width: 40%;
+    height: 30px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.buttons a{
+  padding: 5px 10px; /* Ajusta el espaciado según sea necesario */
+  background-color: #FFF; /* Color de fondo del botón */
+  color: #000; /* Color del texto del botón */
+  height: 30px; /* Agrega la altura deseada */
+  width: 40%; /* Agrega el ancho deseado */
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*Contraseñas*/
+.container_contraseñas{
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+
+.perfil img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: solid #FFF;
+    margin-bottom: 5%;
+}
+
+.respaldos button{
+    display: inline-block; /* Hace que los botones se muestren en línea */
+    margin-right: 5px; /* Agrega un margen derecho para separar los botones */
+    padding: 5px 10px; /* Ajusta el relleno para el botón */
+    background-color: #0077B5; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;    
+    border: none; /* Quita el borde */
+    border-radius: 5px; /* Añade bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+    
+}
+
+.container_contraseñas p{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.contraseñaTrue {
+    background-color: #FFF;
+    padding: 3px;
+    border: 1px solid #FFF;
+    margin: 6px 0;
+    border-radius: 10px;
+  }
+  
+  .contraseñaTrue table {
+    width: 100%;
+  }
+  
+  .contraseñaTrue table td {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+  }

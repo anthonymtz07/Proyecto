@@ -1,19 +1,21 @@
-const staticGtrs = "dev-gtr-site-v1";
+const staticPadload = "dev-padload-site-v2";
 const assets = [
     "/", 
     "/index.html",
-    "/css/style.css",
+    "/css/styles.css",
     "/js/app.js",
-    "/images/logo.png"
+    "/js/contraseña.js",
+    "/img/logo.png"
+
 ]
 
 self.addEventListener("install",installEvent =>{
     installEvent.waitUntil(
-        caches.open(staticGtrs).then(cache =>{
+        caches.open(staticPadload).then(cache =>{
             cache.addAll(assets);
         })
-    )
-})
+    );
+});
 
 self.addEventListener("fetch",fetchEvent =>{
     fetchEvent.repondWith( //Le ponemos el respondWith por que no queremos la respuesta que nos da el navegador
@@ -22,5 +24,5 @@ self.addEventListener("fetch",fetchEvent =>{
             .then(res => {
                 return res || fetch(fetchEvent.request)
             })
-    )
-})
+    );
+});
