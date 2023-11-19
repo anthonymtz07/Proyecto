@@ -134,3 +134,22 @@ input{
     padding: 5px;
     text-align: center;
   }
+
+
+
+.notification-container {
+    text-align: center;
+}
+
+button {
+    background-color: #0077B5;
+    width: 40%;
+    height: 30px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 5px;
+}
