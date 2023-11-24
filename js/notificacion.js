@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Notification.requestPermission().then(permission => {
                 if (permission === 'granted') {
                     showNotification('¡Permiso concedido!', 'Ahora recibirás notificaciones.');
-                    window.location.href = "../html/contraseñas.html"
+                    window.location.href = "../html/gps.html"
                 } else if (permission === 'denied') {
                     showNotification('Permiso denegado', 'Puedes habilitar las notificaciones en la configuración del navegador.');
                     window.location.href = "../index.html"
